@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="app/css/styles.css"/>
+        <meta name="author" content="Cassie Marquez"/>
+
+        <title>Cassie&lsquo;s Book Inventory App</title>
+
+    </head>
+    <body>
+
+        <header>
+            <div class="headline">
+                <h1 style="text-align:center;">Inventory App Instructions</h1>
+                <p><a href="index.php">Return to main menu</a></p>
+            </div>
+        </header>
+        
+        <section id="container" class="container">
+            <p>Use of the app is fairly simple.  I will start with an explanation of those things most likely to need instructions first</p>
+
+            <h2>Downloading And Importing Inventory</h2>
+            <p>Downloading your inventory is quite simple.  Tap the "download inventory" link on the main screen and the file downloads.</p>
+            <p>Please Note: the file downloads as inventory.tsv which means it is a tab separated values file.  Excel does NOT have .tsv set to open by default.</p>
+            <p>That means you will have to open Excel and then go to the "Data" tab, then to "Import Text/CSV" to import the file THEN at the bottom of the window change the selection to "all files"</p>
+            <p>Once you have made that change you can find the inventory.tsv file that gets downloaded.</p>
+
+            <h2>View/Search Inventory</h2>
+            <p>The View Inventory feature provides a few simple searches, sorts, and filters.  Search of inventory is by Title, Authors, and Publisher.  If you want to clear the search and return to viewing all inventory simply click the search button or any other of the filters or sorts</p>
+            <p>It should be noted that clicking on a column heading will do an ascending sort of that column <em>without filters or searches applied</em>.  Sorting by a column will display every record in your inventory.</p>
+            <p>Similarly, clicking the filter link to "show all records" will show every ISBN you have scanned (including those no longer currently in inventory), with the view being by the order the record was entered into your database.</p>
+            <p><strong>Clearing all searches, sorts, and filters</strong> to view your current inventory, simply click the "submit" button to the right side of the search box with the search box empty.  That will display your full inventory.</p>
+            <p><strong>Secondly, and just as importantly:</strong> you can both check in and check out items that already exist in inventory (even items with a zero current quantity) by clicking on the ISBN number.  When you do so, you will be taken to the check in/out screen with the ISBN number pre-filled in for you.  Now you just say how many are checking in or out and continue as you would for any other title.</p>
+            
+            <h2>User Accounts & Inventory Maintenance</h2>
+            <p>Inventory is currently maintained by user account and NOT by school/department/or anything else.</p>
+            <p>That means if you want to maintain a single inventory for the whole department then you will want a single user account for everyone to use in department.</p>
+            <p>If this becomes problematic please email <a href="mailto: dehe2792@gmail.com">Danny Wall</a> and let him know what kinds of upgrades to inventory maintenance you would like to see made</p>
+            
+            <h2>Scanning/taking a picture of Barcodes</h2>
+            <p>Please note the app currently can accept only the part of the barcode that contains the ISBN.  Many books contain TWO barcodes, one that is the ISBN and the other contains additional information, usually price or something else.</p>
+            <p>To scan a book with both barcodes you must use your finger or something to cover up the second part so only the ISBN section is visible to the camera.</p>
+            
+            <h2>Manual Entry</h2>
+            <p>This option is provided for those times when the ISBN is not findable by the book search.  When that happens, you may need to manually enter each of the relevant book details for your inventory.  However this happen infrequently.</p>
+            
+            <h2>New Feature Requests</h2>
+            <p>Would you like the app to do something more and/or different than it currently does?  Simply send an email to <a href="mailto:dehe2792@gmail.com">Danny Wall</a> and let him know what you'd like and we will work to include what you ask for.</p>
+        </section><!-- /content -->
+        
+        <footer>
+            <p style="text-align: center;">
+                &copy; Cassie Marquez.  For support contact <a href="mailto:dehe2792@gmail.com" style="color: yellow;">Danny Wall</a> by email.
+            </p>
+        </footer>
+    </body>
+</html>
